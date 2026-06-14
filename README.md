@@ -13,7 +13,7 @@ A fully working Go REST API with JWT authentication, task management, idempotenc
 | Echo-JWT      | v5      | JWT authentication middleware        |
 | golang-jwt    | v5      | JWT signing & validation             |
 | squirrel      | v5      | SQL query builder                    |
-| Hurl          | 5.x     | HTTP integration testing             |
+| Hurl          | 7.x     | HTTP integration testing             |
 | Docker        | latest  | Container runtime                    |
 | otel-lgtm     | latest  | Observability (logs, traces, metrics)|
 
@@ -231,9 +231,9 @@ This project was developed and tested on the following machine:
 | Host        | IdeaPad Slim 5 14AKP10 (83HX)                     |
 | Kernel      | Linux 7.0.0-22-generic                            |
 | CPU         | AMD Ryzen AI 7 350 (16) @ 5.09 GHz                |
-| GPU         | AMD Radeon 860M Graphics [Integrated]              |
-| Memory      | 18.81 GiB (5.05 GiB used)                         |
-| Disk        | 84.73 GiB (39% used)                              |
+| GPU         | AMD Radeon 860M Graphics [Integrated]             |
+| Memory      | 18.81 GiB                                         |
+| Disk        | 84.73 GiB                                         |
 | Go          | 1.26.4                                            |
 | Docker      | 29.5.3                                            |
 | Hurl        | 7.1.0                                             |
