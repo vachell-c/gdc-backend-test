@@ -1,6 +1,6 @@
 # Binaries
 bin/
-server
+/server
 
 # Docker volumes and temp files
 docker-compose.override.yml
