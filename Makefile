@@ -1,7 +1,7 @@
 .PHONY: build run test test-unit test-integration load-test db-migrate lint clean
 
 build:
-	go build -o bin/server ./cmd/server
+	go build -o bin/server ./internal/cmd/server
 
 run:
 	@echo "=== Building Docker image ==="

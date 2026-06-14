@@ -182,7 +182,7 @@ All errors follow this JSON format:
 
 ```
 gdc-backend-test/
-├── cmd/server/main.go          # Entry point
+├── internal/cmd/server/main.go  # Entry point
 ├── internal/
 │   ├── config/config.go        # Environment configuration
 │   ├── db/
