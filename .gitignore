@@ -1,0 +1,23 @@
+# Binaries
+bin/
+server
+
+# Docker volumes and temp files
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+tests/integration/build/
+
+# Go
+vendor/
